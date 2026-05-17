@@ -17,7 +17,7 @@ Repositório com duas atividades práticas desenvolvidas em Python, cobrindo té
 
 ## Atividade 1 — PLN: Tokenização com Leitura de PDF
 
-**Arquivo:** `pln_exemplos.py`
+**Arquivo:** `pln_exp1.py`
 
 ### Descrição
 
@@ -143,7 +143,7 @@ pip install pymupdf opencv-python numpy matplotlib
 |---|---|---|
 | Tokenização | `pln_exp1.py` | `re`, `PyMuPDF` |
 | Análise de frequência | `pln_exp1.py` | `collections.Counter` |
-| Geração de imagem sintética | `visao_gaussiano+exp2.py` | `NumPy`, `OpenCV` |
+| Geração de imagem sintética | `visao_gaussiano_exp2.py` | `NumPy`, `OpenCV` |
 | Ruído gaussiano | `visao_gaussiano_exp2.py` | `NumPy` |
 | Filtro Gaussiano (blur) | `visao_gaussiano_exp2.py` | `OpenCV` |
 | Visualização comparativa | `visao_gaussiano_exp2.py` | `Matplotlib` |
