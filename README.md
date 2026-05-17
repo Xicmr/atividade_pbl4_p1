@@ -7,8 +7,8 @@ Repositório com duas atividades práticas desenvolvidas em Python, cobrindo té
 
 ```
 📦 praticas-ia/
-├── pln_exemplos.py              # Tokenização de texto extraído de PDF
-├── visao_gaussiano.py           # Filtro Gaussiano para redução de ruído
+├── pln_exp1.py              # Tokenização de texto extraído de PDF
+├── visao_gaussiano_exp2.py           # Filtro Gaussiano para redução de ruído
 ├── Citação_de_Oscar_Wilde.pdf   # PDF de entrada para o script de PLN
 └── README.md
 ```
@@ -41,7 +41,7 @@ pip install pymupdf
 > Coloque o arquivo `Citação_de_Oscar_Wilde.pdf` na mesma pasta do script.
 
 ```bash
-python pln_exemplos.py
+python pln_exp1.py
 ```
 
 ### Exemplo de saída
@@ -74,7 +74,7 @@ Tokenização concluída com sucesso!
 
 ##  Atividade 2 — Visão Computacional: Filtro Gaussiano
 
-**Arquivo:** `visao_gaussiano.py`
+**Arquivo:** `visao_gaussiano_exp2.py`
 
 ### Descrição
 
@@ -141,12 +141,12 @@ pip install pymupdf opencv-python numpy matplotlib
 
 | Conceito | Script | Biblioteca |
 |---|---|---|
-| Tokenização | `pln_exemplos.py` | `re`, `PyMuPDF` |
-| Análise de frequência | `pln_exemplos.py` | `collections.Counter` |
-| Geração de imagem sintética | `visao_gaussiano.py` | `NumPy`, `OpenCV` |
-| Ruído gaussiano | `visao_gaussiano.py` | `NumPy` |
-| Filtro Gaussiano (blur) | `visao_gaussiano.py` | `OpenCV` |
-| Visualização comparativa | `visao_gaussiano.py` | `Matplotlib` |
+| Tokenização | `pln_exp1.py` | `re`, `PyMuPDF` |
+| Análise de frequência | `pln_exp1.py` | `collections.Counter` |
+| Geração de imagem sintética | `visao_gaussiano+exp2.py` | `NumPy`, `OpenCV` |
+| Ruído gaussiano | `visao_gaussiano_exp2.py` | `NumPy` |
+| Filtro Gaussiano (blur) | `visao_gaussiano_exp2.py` | `OpenCV` |
+| Visualização comparativa | `visao_gaussiano_exp2.py` | `Matplotlib` |
 
 ---
 ##  Autor
