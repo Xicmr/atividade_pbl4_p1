@@ -1,14 +1,13 @@
-
 # Importa o modulo 're' (expressoes regulares), que permite
 # buscar padroes dentro de strings, usado aqui para tokenizar
 import re
 
 
-# Instalacao: pip install pymupdf
-import fitz
+# Importa o modulo pymupdf
+import pymupdf as fitz
 
 # O arquivo deve estar na mesma pasta do script.
-CAMINHO_PDF = "Citação_de_Oscar_Wilde.pdf"
+CAMINHO_PDF = "Citação de Oscar Wilde.pdf"
 
 # Abre o arquivo PDF usando PyMuPDF.
 # fitz.open() retorna um objeto 'Document' com todas as paginas.
