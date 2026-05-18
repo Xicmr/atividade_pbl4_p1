@@ -44,30 +44,53 @@ pip install pymupdf
 python pln_exp1.py
 ```
 
-### Exemplo de saída
+### Resultado
 
 ```
 ============================================================
 ETAPA 1: LEITURA DO PDF
 ============================================================
-Arquivo: Citação_de_Oscar_Wilde.pdf
-Caracteres extraídos: 312
 
+Arquivo: Citação de Oscar Wilde.pdf
+Caracteres extraídos: 947
+
+Texto extraído:
+  Influenciar uma pessoa é dar-lhe a nossa própria alma. O indivíduo deixa de  pensar com os seus próprios pensamentos ou de arder com as suas próprias  paixões. As suas virtudes não lhe são naturais. Os seus pecados, se é que existe  tal coisa, são tomados de empréstimo. Torna-se o eco de uma música alheia, o  ator de um papel que não foi escrito para ele. O objectivo da vida é o  desenvolvimento próprio, a total percepção da própria natureza, é para isso que  cada um de nós vem ao mundo. Hoje em dia as pessoas têm medo de si próprias.  Esqueceram o maior de todos os deveres, o dever para consigo mesmos. É  verdade que são caridosas. Alimentam os esfomeados e vestem os pobres. Mas  as suas próprias almas morrem de fome e estão nuas. A coragem desapareceu da  nossa raça e se calhar nunca a tivemos realmente. O temor à sociedade, que é a  base da moral, e o temor a Deus, que é o segredo da religião, são as duas coisas  que nos governam.
+
+============================================================
 ETAPA 2: TOKENIZAÇÃO
 ============================================================
-Total de tokens gerados: 72
-Primeiros 20 tokens: ['Ser', 'você', 'mesmo', ...]
 
+Total de tokens gerados: 201
+
+Primeiros 20 tokens:
+  ['Influenciar', 'uma', 'pessoa', 'é', 'dar', 'lhe', 'a', 'nossa', 'própria', 'alma', '.', 'O', 'indivíduo', 'deixa', 'de', 'pensar', 'com', 'os', 'seus', 'próprios']
+
+Últimos 10 tokens:
+  ['religião', ',', 'são', 'as', 'duas', 'coisas', 'que', 'nos', 'governam', '.']
+
+============================================================
 ETAPA 3: ANÁLISE
 ============================================================
-Total de palavras : 61
-Total de pontuação: 11
+
+Total de palavras : 178
+Total de pontuação: 23
 
 Top 10 palavras mais frequentes:
- 'a' → 5x
- 'de' → 3x
- ...
+  'o' → 10x
+  'de' → 9x
+  'é' → 7x
+  'que' → 7x
+  'a' → 6x
+  'os' → 5x
+  'as' → 5x
+  'da' → 5x
+  'são' → 4x
+  'e' → 4x
+
+============================================================
 Tokenização concluída com sucesso!
+============================================================
 ```
 
 ---
@@ -107,18 +130,19 @@ python visao_gaussiano.py
 ==================================================
 FILTRO GAUSSIANO — RESULTADO
 ==================================================
-Tamanho da imagem : (300, 300)
-Kernel do filtro  : 7x7 pixels
+
+Tamanho da imagem  : (300, 300)
+Kernel do filtro   : 7x7 pixels
 
 Média de pixels:
-  Original    : 75.42
-  Com ruído   : 75.38
-  Após filtro : 75.42
+  Original         : 77.24
+  Com ruído        : 85.53
+  Após filtro      : 85.53
 
 Desvio padrão dos pixels (quanto maior = mais ruído):
-  Original    : 87.51
-  Com ruído   : 100.12
-  Após filtro : 88.34
+  Original         : 90.71
+  Com ruído        : 88.10
+  Após filtro      : 81.31
 
 Imagem salva em: resultado_gaussiano.png
 ==================================================
