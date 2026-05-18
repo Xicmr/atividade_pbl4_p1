@@ -147,6 +147,7 @@ Desvio padrão dos pixels (quanto maior = mais ruído):
 Imagem salva em: resultado_gaussiano.png
 ==================================================
 ```
+<img width="1440" height="480" alt="image" src="https://github.com/user-attachments/assets/c4dcf778-d988-480f-9c2a-431405ff47fd" />
 
 ---
 
